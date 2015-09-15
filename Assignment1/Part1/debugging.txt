@@ -1,0 +1,27 @@
+alex@gear:~/NetworkSecurity/Assignment1/Part1$ chmod 744 script.sh
+alex@gear:~/NetworkSecurity/Assignment1/Part1$ ls
+README.md  script.sh  words.txt
+alex@gear:~/NetworkSecurity/Assignment1/Part1$ ./script.sh
+./script.sh: line 1: !/bash/shell: No such file or directory
+./script.sh: line 3: c/sortedwords.txt: No such file or directory
+./script.sh: line 4: d/sortedwords.txt: No such file or directory
+./script.sh: line 5: z/sortedwords.txt: No such file or directory
+total 8
+-rw-rw-r-- 1 alex alex 1058 Sep 15 14:23 README.md
+-rwxr--r-- 1 alex alex  210 Sep 15 17:04 script.sh
+alex@gear:~/NetworkSecurity/Assignment1/Part1$ git stash
+Saved working directory and index state WIP on master: 3216989 V2
+HEAD is now at 3216989 V2
+alex@gear:~/NetworkSecurity/Assignment1/Part1$ 
+
+SCRIPT.SH
+!/bash/shell
+
+cat words.txt | grep "[Cc]" words.txt > c/sortedwords.txt
+cat words.txt | grep "[Dd]" words.txt > d/sortedwords.txt
+cat words.txt | grep "[Zz]" words.txt > z/sortedwords.txt
+rm -f words.txt
+ls -l
+
+
+
