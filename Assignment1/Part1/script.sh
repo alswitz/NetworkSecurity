@@ -1,7 +1,7 @@
 !/bash/shell
 
-grep "[Cc]" words.txt > ~NetworkSecurity/Assignment1/Part1/c/
-grep "[Dd]" words.txt > ~NetworkSecurity/Assignment1/Part1/d/
-grep "[Zz]" words.txt > ~NetworkSecurity/Assignment1/Part1/z/
+cat words.txt | grep "[Cc]" words.txt > c/sortedwords.txt
+cat words.txt | grep "[Dd]" words.txt > d/sortedwords.txt
+cat words.txt | grep "[Zz]" words.txt > z/sortedwords.txt
 rm -f words.txt
 ls -l
