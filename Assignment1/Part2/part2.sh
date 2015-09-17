@@ -26,7 +26,7 @@
 #cp -r ~/NetworkSecurity/Assignment1/Part1/z .
 
 for char in {a..z}; do
-	cp -r ~/NetworkSecurity/Assignment1/Part1/$char
+	cp -r ~/NetworkSecurity/Assignment1/Part1/$char .
 done
 
 #for char in {z..a}; do 
