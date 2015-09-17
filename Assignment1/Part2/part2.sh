@@ -1,29 +1,33 @@
-cp -r ~/NetworkSecurity/Assignment1/Part1/a .
-cp -r ~/NetworkSecurity/Assignment1/Part1/b .
-cp -r ~/NetworkSecurity/Assignment1/Part1/c .
-cp -r ~/NetworkSecurity/Assignment1/Part1/d .
-cp -r ~/NetworkSecurity/Assignment1/Part1/e .
-cp -r ~/NetworkSecurity/Assignment1/Part1/f .
-cp -r ~/NetworkSecurity/Assignment1/Part1/g .
-cp -r ~/NetworkSecurity/Assignment1/Part1/h .
-cp -r ~/NetworkSecurity/Assignment1/Part1/i .
-cp -r ~/NetworkSecurity/Assignment1/Part1/j .
-cp -r ~/NetworkSecurity/Assignment1/Part1/k .
-cp -r ~/NetworkSecurity/Assignment1/Part1/l .
-cp -r ~/NetworkSecurity/Assignment1/Part1/m .
-cp -r ~/NetworkSecurity/Assignment1/Part1/n .
-cp -r ~/NetworkSecurity/Assignment1/Part1/o .
-cp -r ~/NetworkSecurity/Assignment1/Part1/p .
-cp -r ~/NetworkSecurity/Assignment1/Part1/q .
-cp -r ~/NetworkSecurity/Assignment1/Part1/r .
-cp -r ~/NetworkSecurity/Assignment1/Part1/s .
-cp -r ~/NetworkSecurity/Assignment1/Part1/t .
-cp -r ~/NetworkSecurity/Assignment1/Part1/u .
-cp -r ~/NetworkSecurity/Assignment1/Part1/v .
-cp -r ~/NetworkSecurity/Assignment1/Part1/w .
-cp -r ~/NetworkSecurity/Assignment1/Part1/x .
-cp -r ~/NetworkSecurity/Assignment1/Part1/y .
-cp -r ~/NetworkSecurity/Assignment1/Part1/z .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/a .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/b .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/c .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/d .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/e .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/f .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/g .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/h .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/i .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/j .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/k .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/l .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/m .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/n .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/o .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/p .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/q .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/r .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/s .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/t .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/u .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/v .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/w .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/x .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/y .
+#cp -r ~/NetworkSecurity/Assignment1/Part1/z .
+
+for char in {a..z}; do
+	cp -r ~/NetworkSecurity/Assignment1/Part1/$char
+done
 
 #for char in {z..a}; do 
 #	mkdir $char

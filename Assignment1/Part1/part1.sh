@@ -3,7 +3,7 @@ for char in {a..z}; do
 done
 
 for char in {a..z}; do
-	cat words.txt | grep "^[$char]"
+	cat words.txt | grep -i "^[$char]" > $char/sortedwords.txt
 done
  
 #cat words.txt | grep "^[Cc]" words.txt > c/sortedwords.txt
