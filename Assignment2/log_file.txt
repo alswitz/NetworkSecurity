@@ -1,0 +1,39 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-09-24 12:00 EDT
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-09-24 12:02 EDT
+Nmap scan report for 192.168.0.1
+Host is up (0.0038s latency).
+MAC Address: 14:CC:20:B5:78:3E (Unknown)
+Nmap scan report for 192.168.0.100
+Host is up (-0.10s latency).
+MAC Address: 3C:A9:F4:A3:01:70 (Intel Corporate)
+Nmap scan report for 192.168.0.101
+Host is up (-0.097s latency).
+MAC Address: B8:27:EB:BD:8E:66 (Raspberry Pi Foundation)
+Nmap scan report for 192.168.0.104
+Host is up (-0.070s latency).
+MAC Address: 60:67:20:C4:21:60 (Intel Corporate)
+Nmap scan report for 192.168.0.107
+Host is up.
+Nmap done: 256 IP addresses (5 hosts up) scanned in 28.33 seconds
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-09-24 12:05 EDT
+Nmap scan report for 192.168.0.1
+Host is up (0.0029s latency).
+MAC Address: 14:CC:20:B5:78:3E (Unknown)
+Nmap scan report for 192.168.0.100
+Host is up (-0.099s latency).
+MAC Address: 3C:A9:F4:A3:01:70 (Intel Corporate)
+Nmap scan report for 192.168.0.101
+Host is up (-0.098s latency).
+MAC Address: B8:27:EB:BD:8E:66 (Raspberry Pi Foundation)
+Nmap scan report for 192.168.0.102
+Host is up (0.031s latency).
+MAC Address: C0:33:5E:13:0A:99 (Unknown)
+Nmap scan report for 192.168.0.104
+Host is up (0.032s latency).
+MAC Address: 60:67:20:C4:21:60 (Intel Corporate)
+Nmap scan report for 192.168.0.107
+Host is up.
+Nmap done: 256 IP addresses (6 hosts up) scanned in 28.32 seconds
