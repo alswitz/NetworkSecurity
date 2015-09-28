@@ -1,1 +1,1 @@
-while sleep 10; do (./Script/script.sh &) ; done
+while sleep 10; do (./script.sh &) ; done
