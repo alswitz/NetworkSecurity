@@ -1,2 +1,2 @@
 # NetworkSecurity
-Network Security I Assignments
+Network Security I Assignments by Alexander Switzer.

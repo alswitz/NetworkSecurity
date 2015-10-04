@@ -1,7 +1,7 @@
+#!/bin/bash
 #This is the beginning.
-#!/usr/bin/env gnuplot
 echo Running network analysis tool...
-#sudo nmap -sP 192.168.0.0/24 >> log_file.txt
+sudo nmap -sP 192.168.0.0/24 >> log_file.txt
 grep -Eo "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" log_file.txt >> ip_addresses.txt
 sort ip_addresses.txt | uniq -c > sorted_ips.dat 
 grep -io "[0-9A-F]\{2\}\(:[0-9A-F]\{2\}\)\{5\}" log_file.txt >> mac_addresses.txt

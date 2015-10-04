@@ -7,7 +7,6 @@ set offset graph 0.1, graph 0.1
 set term png
 set xtics rotate by -45
 set output "mac_graph.png"
-set xr [0:10]
 set yr [0:25]
 plot "sorted_macs.dat" using 0:1:xtic(2) with boxes;
 
